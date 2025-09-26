@@ -1,0 +1,45 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 20px;
+  background: #f6f7fb;
+  color: #111;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin: 0 0 .2rem 0;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.day {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.day h2 {
+  font-size: 1rem;
+  margin: 0 0 .5rem;
+}
+
+.item {
+  margin-bottom: .5rem;
+  padding: .5rem;
+  border-left: 4px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.item.ela { border-color: #6366f1; }
+.item.math { border-color: #06b6d4; }
+.item.science { border-color: #10b981; }
+.item.global { border-color: #f97316; }
