@@ -21,7 +21,7 @@
     color:#111827;
     -webkit-font-smoothing:antialiased;
   }
-  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+  header{display:flex;align-assignment-items:center;justify-content:space-between;margin-bottom:14px;}
   h1{font-size:20px;margin:0}
   .meta{color:var(--muted);font-size:13px}
   .calendar{
@@ -41,18 +41,18 @@
   .day-header{
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-assignment-items:center;
     margin-bottom:10px;
   }
   .date{
     font-weight:600;
   }
   .weekday{color:var(--muted);font-size:13px}
-  .items{flex:1; display:flex; flex-direction:column; gap:8px; overflow:auto; padding-right:4px;}
-  .item{
+  .assignment-items{flex:1; display:flex; flex-direction:column; gap:8px; overflow:auto; padding-right:4px;}
+  .assignment-item{
     display:flex;
     gap:8px;
-    align-items:flex-start;
+    align-assignment-items:flex-start;
     padding:8px;
     border-radius:8px;
     background: linear-gradient(180deg, rgba(245,247,250,1), rgba(255,255,255,1));
@@ -84,7 +84,7 @@
 <header>
   <div>
     <h1>7th Grade — Weekly Calendar</h1>
-    <div class="meta">Week: Mon Sept 22 → Fri Sept 26, 2025 · Teachers: Mrs. Ramsey (ELA), Mrs. Raffauf (Math), Ms. Mattia (Science), Mrs. O'Brien (Global Studies)</div>
+    <div class="meta">Week: Mon Sept 22 → Fri Sept 26, 2025</div>
   </div>
   <div class="meta">Generated from school doc (published weekly update).</div>
 </header>
@@ -97,31 +97,30 @@
         <div class="weekday">MONDAY</div>
         <div class="date">Sept 22, 2025</div>
       </div>
-      <div class="small">Week start</div>
     </div>
-    <div class="items">
-      <div class="item ramsey">
+    <div class="assignment-items">
+      <div class="assignment-item ramsey">
         <div class="pill" style="background:#6366f1"></div>
         <div>
-          <div class="teacher">Mrs. Ramsey — ELA</div>
+          <div class="teacher">ELA</div>
           <p class="desc">Study Narrative Vocabulary (for quiz later this week).</p>
           <div class="small">Source: teacher note in weekly doc.</div>
         </div>
       </div>
 
-      <div class="item raffauf">
+      <div class="assignment-item raffauf">
         <div class="pill" style="background:#06b6d4"></div>
         <div>
-          <div class="teacher">Mrs. Raffauf — Math</div>
-          <p class="desc">Math class supplies & ongoing Zearn lessons (check Google Classroom for specific Zearn items assigned this week).</p>
+          <div class="teacher">Math</div>
+          <p class="desc">Math class supplies & ongoing Zearn lessons (check Google Classroom for specific Zearn assignment-items assigned this week).</p>
           <div class="small">Check class link for daily Zearn assignments.</div>
         </div>
       </div>
 
-      <div class="item mattia">
+      <div class="assignment-item mattia">
         <div class="pill" style="background:#10b981"></div>
         <div>
-          <div class="teacher">Ms. Mattia — Science</div>
+          <div class="teacher">Science</div>
           <p class="desc">Intro packets / Introduction to Science packets noted due in this window (teachers list an intro packet / course outline earlier in week).</p>
           <div class="small">See Google Classroom for the packet — doc lists intro packet due Friday but packet work may be started earlier in week.</div>
         </div>
@@ -138,20 +137,20 @@
       </div>
       <div class="small"></div>
     </div>
-    <div class="items">
-      <div class="item mattia">
+    <div class="assignment-items">
+      <div class="assignment-item mattia">
         <div class="pill" style="background:#10b981"></div>
         <div>
-          <div class="teacher">Ms. Mattia — Science</div>
+          <div class="teacher">Science</div>
           <p class="desc">Study Guide due (Study Guide due Tuesday 9/23).</p>
           <div class="small">Document lists: "Study Guide Due Tuesday 9/23".</div>
         </div>
       </div>
 
-      <div class="item raffauf">
+      <div class="assignment-item raffauf">
         <div class="pill" style="background:#06b6d4"></div>
         <div>
-          <div class="teacher">Mrs. Raffauf — Math</div>
+          <div class="teacher">Math</div>
           <p class="desc">Zearn Module 2 lessons (teacher notes indicate Zearn work this week — confirm Google Classroom for exact lessons assigned for your period).</p>
           <div class="small">Weekly Zearn expectations listed in the doc.</div>
         </div>
@@ -168,20 +167,20 @@
       </div>
       <div class="small"></div>
     </div>
-    <div class="items">
-      <div class="item ramsey">
+    <div class="assignment-items">
+      <div class="assignment-item ramsey">
         <div class="pill" style="background:#6366f1"></div>
         <div>
-          <div class="teacher">Mrs. Ramsey — ELA</div>
+          <div class="teacher">ELA</div>
           <p class="desc">Work in-class on narrative plot/plotline (other ELA teachers also running plot quizzes around 9/24–9/26).</p>
           <div class="small">See Google Classroom for plot materials.</div>
         </div>
       </div>
 
-      <div class="item raffauf">
+      <div class="assignment-item raffauf">
         <div class="pill" style="background:#06b6d4"></div>
         <div>
-          <div class="teacher">Mrs. Raffauf — Math</div>
+          <div class="teacher">Math</div>
           <p class="desc">Check for any Zearn milestone or class practice — Unit and module schedule posted for this week.</p>
           <div class="small">Teacher notes: Unit test/quiz windows around 9/23–9/26; confirm period-specific schedule in Google Classroom.</div>
         </div>
@@ -198,29 +197,29 @@
       </div>
       <div class="small"></div>
     </div>
-    <div class="items">
-      <div class="item mattia">
+    <div class="assignment-items">
+      <div class="assignment-item mattia">
         <div class="pill" style="background:#10b981"></div>
         <div>
-          <div class="teacher">Ms. Mattia — Science</div>
+          <div class="teacher">Science</div>
           <p class="desc">Vocab Slides due (Vocab Slides Due Thursday 9/25).</p>
           <div class="small">Document lists vocab slides due 9/25.</div>
         </div>
       </div>
 
-      <div class="item raffauf">
+      <div class="assignment-item raffauf">
         <div class="pill" style="background:#06b6d4"></div>
         <div>
-          <div class="teacher">Mrs. Raffauf — Math</div>
+          <div class="teacher">Math</div>
           <p class="desc">Unit 2 Quiz #1 (some math sections show Unit 2 Quiz on Fri 9/25 or 9/26 — double-check period-specific teacher note in Google Classroom).</p>
           <div class="small">Doc shows Unit 2 Quiz on 9/25 for some classes and 9/26 for others; confirm with your period's teacher post. :contentReference[oaicite:1]{index=1}</div>
         </div>
       </div>
 
-      <div class="item ramsey">
+      <div class="assignment-item ramsey">
         <div class="pill" style="background:#6366f1"></div>
         <div>
-          <div class="teacher">Mrs. Ramsey — ELA</div>
+          <div class="teacher">ELA</div>
           <p class="desc">Plot diagram quiz (other ELA teachers listing plot diagram/plot quizzes on or around 9/25).</p>
           <div class="small">Doc lists “Plot diagram Quiz” on 9/25 for several ELA sections. :contentReference[oaicite:2]{index=2}</div>
         </div>
@@ -235,40 +234,39 @@
         <div class="weekday">FRIDAY</div>
         <div class="date">Sept 26, 2025</div>
       </div>
-      <div class="small">Many summatives/quizzes</div>
     </div>
-    <div class="items">
-      <div class="item mattia">
+    <div class="assignment-items">
+      <div class="assignment-item mattia">
         <div class="pill" style="background:#10b981"></div>
         <div>
-          <div class="teacher">Ms. Mattia — Science</div>
+          <div class="teacher">Science</div>
           <p class="desc">First quiz (Science) — First Quiz on Friday 9/26. Intro packet also listed due Friday 9/26.</p>
           <div class="small">Document lists: First Quiz (9/26) & Intro packet due 9/26. :contentReference[oaicite:3]{index=3}</div>
         </div>
       </div>
 
-      <div class="item ramsey">
+      <div class="assignment-item ramsey">
         <div class="pill" style="background:#6366f1"></div>
         <div>
-          <div class="teacher">Mrs. Ramsey — ELA</div>
+          <div class="teacher">ELA</div>
           <p class="desc">Narrative vocabulary quiz on Friday 9/26 (study note was given on 9/22).</p>
           <div class="small">Doc: “Study Narrative Vocabulary for Quiz on Friday, 9/26.” :contentReference[oaicite:4]{index=4}</div>
         </div>
       </div>
 
-      <div class="item obrien">
+      <div class="assignment-item obrien">
         <div class="pill" style="background:#f97316"></div>
         <div>
-          <div class="teacher">Mrs. O'Brien — Global Studies</div>
+          <div class="teacher">Global Studies</div>
           <p class="desc">Water Scarcity Summative due by Fri 9/26 (by 11:59pm).</p>
           <div class="small">Doc lists Water Scarcity Summative due Fri 9/26 (11:59pm). :contentReference[oaicite:5]{index=5}</div>
         </div>
       </div>
 
-      <div class="item raffauf">
+      <div class="assignment-item raffauf">
         <div class="pill" style="background:#06b6d4"></div>
         <div>
-          <div class="teacher">Mrs. Raffauf — Math</div>
+          <div class="teacher">Math</div>
           <p class="desc">Some Math classes show Unit 2 Quiz on Fri 9/26 — confirm your period's schedule (doc shows variation across sections/teachers).</p>
           <div class="small">Check Google Classroom for your period; doc references Unit 2 Quiz 9/25/9/26 for different teachers. :contentReference[oaicite:6]{index=6}</div>
         </div>
